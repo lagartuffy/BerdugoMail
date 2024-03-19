@@ -5,14 +5,25 @@
     android:layout_height="match_parent"
     tools:context=".Pantalla_Paulina">
 
+    <!-- Imagen circular de Paulina -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewPaulina"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/paulina"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Texto del mensaje de Paulina -->
     <TextView
-        android:id="@+id/emailTextViewPaulina"
+        android:id="@+id/mensajeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Mensaje de Paulina:\n\nHola, te hablo debido a que ayer ocurrio un desastre natural en mi ciudad y me dejo sin casa, me podrias prestar dinero? Lo necesito de momento, te aviso cuando te pago."
-        android:textSize="20sp"
+        android:text="Mensaje de Paulina:\n\nHola que tal? Te habla tu amiga de chile, queria preguntarte cuando vienes a visitarme?"
         android:textColor="#000000"
-        android:background="@drawable/message_background" />
+        android:textSize="20sp"
+        android:layout_below="@id/imageViewPaulina"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
 
 </RelativeLayout>

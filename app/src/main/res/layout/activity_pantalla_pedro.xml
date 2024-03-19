@@ -10,7 +10,7 @@
         android:id="@+id/imageViewPedro"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@raw/pedro"
+        android:src="@drawable/pedro"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"/>
 
@@ -19,7 +19,7 @@
         android:id="@+id/mensajeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mensaje de Pedro:\n\nHola ! Como estas?\nSaludos desde Mexico"
+        android:text="Mensaje de Pedro:\n\nHola ! Como estas?\nSaludos desde Mexico, Proximamente te invitare a chilaquiles"
         android:textColor="#000000"
         android:textSize="20sp"
         android:layout_below="@id/imageViewPedro"

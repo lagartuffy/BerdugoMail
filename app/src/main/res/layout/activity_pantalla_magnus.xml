@@ -5,14 +5,25 @@
     android:layout_height="match_parent"
     tools:context=".Pantalla_Magnus">
 
+    <!-- Imagen circular de Magnus -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewMagnus"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/magnus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Texto del mensaje de Magnus -->
     <TextView
-        android:id="@+id/emailTextViewMagnus"
+        android:id="@+id/mensajeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Mensaje de Magnus:\n\nHola que tal? te comento que proximamente voy a realizar un torneo de ajedrez en colombia y me gustaria contar con tu apoyo, Viajarias conmigo?"
-        android:textSize="20sp"
+        android:text="Mensaje de Magnus:\n\nHola, Proximamente tendre un torneo de ajedrez, estas cordialmente invitado"
         android:textColor="#000000"
-        android:background="@drawable/message_background" />
+        android:textSize="20sp"
+        android:layout_below="@id/imageViewMagnus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
 
 </RelativeLayout>
